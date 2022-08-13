@@ -5,7 +5,6 @@
 12821 -> да
 23432 -> да
 */
-
 bool palindrome(string str)
 {
     int n = str.Length;
@@ -15,8 +14,6 @@ bool palindrome(string str)
     }
     return true;
 }
-
 Console.WriteLine("Введите число");
 string numStr = Console.ReadLine();
-
 Console.WriteLine(palindrome(numStr) ? "Это палиндром": "Это не палиндром");
